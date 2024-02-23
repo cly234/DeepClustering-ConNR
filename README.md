@@ -12,8 +12,9 @@ cd extension
 sh make.sh
 ```
 #### Run
-To begin clustering, simply run:
+- To begin clustering, simply run:
 ```shell
 sh run.sh
 ```
-where you can modify the config file (i.e. `cifar10_r18_connr`) or the number of devices in `run.sh`
+where you can modify the config file (i.e. `cifar10_r18_connr`) or the number of devices ( i.e. `CUDA_VISIBLE_DEVICES=0,1,2,3`) in `run.sh`.
+- For more custom settings, you can directly modify the config file in `configs/*`.
