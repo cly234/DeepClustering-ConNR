@@ -29,8 +29,9 @@ where you can modify the config file (i.e. `cifar10_r18_connr`) or the number of
 3) resume ConNR clustering by running `sh run.sh`. The final checkpoints of ConNR clustering are saved in \[[Goolge Drive](https://drive.google.com/drive/folders/1js2LabhUa0i3486sG_PPkqlhDVLSPtmw?usp=sharing)\]
 
 ## :hearts: Acknowledgement
-Our framework is based on \[ProPos(https://github.com/Hzzone/ProPos)\], and our ConNR implmentation is inspired by \[GNN Reranking(https://github.com/Xuanmeng-Zhang/gnn-re-ranking)\] 
-Great thanks and gratitude for their unwavering efforts and valued contributions
+Our framework is based on [ProPos](https://github.com/Hzzone/ProPos), and our ConNR implmentation is inspired by [GNN Reranking](https://github.com/Xuanmeng-Zhang/gnn-re-ranking).
+
+Great thanks and gratitude for their brilliant works and valued contributions!
 
 ## :black_nib: Citation
 
