@@ -17,4 +17,18 @@ sh make.sh
 sh run.sh
 ```
 where you can modify the config file (i.e. `cifar10_r18_connr`) or the number of devices ( i.e. `CUDA_VISIBLE_DEVICES=0,1,2,3`) in `run.sh`.
-- For more customized uses, you can directly modify the config file in `configs/*`.
+- For more customized uses, you can directly modify the config file in `configs/`.
+
+- To simply conduct ConNR clustering, we provide the warm-up trained checkpoints at 800 epochs in \[[Goolge Drive](https://arxiv.org/pdf/2312.07806.pdf)\]
+
+### Citation
+
+```
+@article{yu2024contextually,
+  title={Contextually Affinitive Neighborhood Refinery for Deep Clustering},
+  author={Yu, Chunlin and Shi, Ye and Wang, Jingya},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  year={2024}
+}
+```
