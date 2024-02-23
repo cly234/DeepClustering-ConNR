@@ -21,7 +21,13 @@ sh run.sh
 where you can modify the config file (i.e. `cifar10_r18_connr`) or the number of devices ( i.e. `CUDA_VISIBLE_DEVICES=0,1,2,3`) in `run.sh`.
 - For more customized uses, you can directly modify the config file in `configs/`.
 
-- To simply conduct ConNR clustering, we provide the warm-up trained checkpoints at 800 epochs in \[[Goolge Drive](https://drive.google.com/drive/folders/1tUldbUs_B5Kzbjor3jhp5AQYLf8enBh7?usp=sharing)\]
+- To skip the warm-up training and simply conduct ConNR clustering, we provide the warm-up trained checkpoints in \[[Goolge Drive](https://drive.google.com/drive/folders/1tUldbUs_B5Kzbjor3jhp5AQYLf8enBh7?usp=sharing)\]. Then
+1) save the warm-up checkpoints into the folder `ckpt/your_run_name/save_models/`
+
+2) modify the corresponding variables `resume_name` and `resume_epoch`in config file:
+  
+3) resume training by calling `sh run.sh`. The final checkpoints by ConNR clustering is saved in \[[Goolge Drive](https://drive.google.com/drive/folders/1tUldbUs_B5Kzbjor3jhp5AQYLf8enBh7?usp=sharing)\]
+   
 
 ### Citation
 
